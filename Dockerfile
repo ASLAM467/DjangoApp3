@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 9000
 
 # Set the default command to run the server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:9000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:9001"]
 
